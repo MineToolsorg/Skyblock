@@ -1,0 +1,17 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SBS",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:stone",
+    "B": "minecraft:emerald_block"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:emerald_ore"
+  }
+}

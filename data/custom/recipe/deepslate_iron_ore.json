@@ -1,0 +1,17 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DOD",
+    " D "
+  ],
+  "key": {
+    "D": "minecraft:deepslate",
+    "O": "minecraft:iron_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:deepslate_iron_ore"
+  }
+}

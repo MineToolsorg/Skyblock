@@ -1,0 +1,17 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SRS",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:stone",
+    "R": "minecraft:raw_copper_block"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:copper_ore"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QNQ",
+    "NQN",
+    "QNQ"
+  ],
+  "key": {
+    "N": "minecraft:netherrack",
+    "Q": "minecraft:quartz"
+  },
+  "result": {
+    "count": 2,
+    "id": "minecraft:nether_quartz_ore"
+  }
+}
