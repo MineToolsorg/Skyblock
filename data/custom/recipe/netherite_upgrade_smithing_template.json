@@ -1,0 +1,18 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NSN",
+    "NDN"
+  ],
+  "key": {
+    "N": "minecraft:netherrack",
+    "S": "minecraft:nether_star",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

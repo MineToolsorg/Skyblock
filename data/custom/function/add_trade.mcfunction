@@ -1,0 +1,2 @@
+execute as @e[type=wandering_trader,tag=!spore_processed] if data entity @s Offers.Recipes[0] run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:emerald",count:5},sell:{id:"minecraft:spore_blossom",count:1},maxUses:12}
+execute as @e[type=wandering_trader,tag=!spore_processed] if data entity @s Offers.Recipes[0] run tag @s add spore_processed

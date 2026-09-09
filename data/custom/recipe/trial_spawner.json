@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "IDI",
+    "TST"
+  ],
+  "key": {
+    "I": "minecraft:iron_bars",
+    "D": "minecraft:diamond",
+    "S": "minecraft:sculk",
+    "T": "minecraft:tuff"
+  },
+  "result": {
+    "id": "minecraft:trial_spawner",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{random_spawner:1b}"
+    }
+  }
+}
