@@ -1,0 +1,17 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SDS",
+    "SSS"
+  ],
+  "key": {
+    "D": "minecraft:red_dye",
+    "S": "minecraft:sand"    
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:red_sand"
+  }
+}

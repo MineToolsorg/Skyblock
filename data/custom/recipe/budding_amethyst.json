@@ -1,0 +1,10 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:amethyst_block",
+  "result": {
+    "id": "minecraft:budding_amethyst"
+  },
+  "experience": 0.5,
+  "cookingtime": 20000
+}

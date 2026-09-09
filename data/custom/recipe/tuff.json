@@ -1,0 +1,21 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DA",
+    "AD"
+  ],
+  "key": {
+    "D": "minecraft:deepslate",
+    "A": "minecraft:andesite"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:tuff",
+    "components": {
+      "minecraft:block_state": {
+        "can_summon": "true"
+      }
+    }
+  }
+}

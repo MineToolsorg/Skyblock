@@ -1,0 +1,21 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GS",
+    "SG"
+  ],
+  "key": {
+    "G": "minecraft:granite",
+    "S": "minecraft:sulfur"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:cinnabar",
+    "components": {
+      "minecraft:block_state": {
+        "can_summon": "true"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SB",
+    "BS"
+  ],
+  "key": {
+    "S": "minecraft:stone",
+    "B": "minecraft:basalt"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:deepslate",
+    "components": {
+      "minecraft:block_state": {
+        "can_summon": "true"
+      }
+    }
+  }
+}

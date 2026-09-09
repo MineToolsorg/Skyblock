@@ -1,0 +1,16 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "S S",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:string"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:cobweb"
+  }
+}

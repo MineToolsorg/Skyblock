@@ -1,0 +1,18 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:sand",
+    "minecraft:experience_bottle"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:suspicious_sand",
+    "components": {
+      "minecraft:block_entity_data": {
+        "id": "minecraft:brushable_block",
+        "LootTable": "custom:archaeology/all_sand_archaeology"
+      }
+    }
+  }
+}

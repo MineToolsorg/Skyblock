@@ -1,0 +1,12 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:diorite",
+    "minecraft:quartz"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:calcite"
+  }
+}

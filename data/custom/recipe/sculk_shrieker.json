@@ -1,0 +1,22 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "DDD"
+  ],
+  "key": {
+    "T": "minecraft:soul_torch",
+    "G": "minecraft:ghast_tear",
+    "D": "minecraft:deepslate"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:sculk_shrieker",
+    "components": {
+      "minecraft:block_state": {
+        "can_summon": "true"
+      }
+    }
+  }
+}
