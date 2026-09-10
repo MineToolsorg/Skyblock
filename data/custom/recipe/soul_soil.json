@@ -2,16 +2,16 @@
   "__comment": "Made by Kons_U for mine.tools",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "E E",
-    "DDD"
+    "AB",
+    "BA"
   ],
   "key": {
-    "E": "minecraft:echo_shard",
-    "D": "minecraft:deepslate"
+    "A": "minecraft:soul_sand",
+    "B": "minecraft:dirt"
   },
   "result": {
-    "count": 1,
-    "id": "minecraft:sculk_shrieker",
+    "count": 4,
+    "id": "minecraft:soul_soil",
     "components": {
       "minecraft:block_state": {
         "can_summon": "true"

@@ -2,17 +2,17 @@
   "__comment": "Made by Kons_U for mine.tools",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " B ",
-    "NSN",
-    " B "
+    " N ",
+    "BLB",
+    " N "
   ],
   "key": {
-    "B": "minecraft:blackstone",
     "N": "minecraft:netherrack",
-    "S": "minecraft:nether_star"
+    "B": "minecraft:blackstone",
+    "L": "minecraft:lava_bucket"
   },
   "result": {
-    "count": 1,
-    "id": "minecraft:ancient_debris"
+    "count": 4,
+    "id": "minecraft:magma_block"
   }
 }
