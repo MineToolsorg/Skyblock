@@ -14,9 +14,6 @@
   },
   "result": {
     "id": "minecraft:trial_spawner",
-    "count": 1,
-    "components": {
-      "minecraft:custom_data": "{random_spawner:1b}"
-    }
+    "count": 1
   }
 }

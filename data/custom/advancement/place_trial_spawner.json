@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:trial_spawner",
+        "state": {
+          "trial_spawner_state": "inactive"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom:setup_spawner"
+  }
+}

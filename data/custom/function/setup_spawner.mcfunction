@@ -1,16 +1,30 @@
-# ====================================================================
-# TRIAL CHAMBER STRUCTURE MECHANICS
-# ====================================================================
+# Scoreboard für den Zufallsgenerator erstellen (passiert automatisch im Hintergrund)
+scoreboard objectives add ts_rnd dummy
 
-# --- TRIAL SPAWNER SETUP ---
-# Roll a random integer between 1 and 10
-execute store result score #random_mob temp run random value 1..10
+# Sucht den platzierten inaktiven Spawner im Umkreis von bis zu 5.5 Blöcken
+execute anchored eyes positioned ^ ^ ^0.0 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^0.25 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^0.5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^0.75 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^1.0 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^1.25 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^1.5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^1.75 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^2.0 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^2.25 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^2.5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^2.75 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^3.0 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^3.25 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^3.5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^3.75 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^4.0 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^4.25 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^4.5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^4.75 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^5.0 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^5.25 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
+execute anchored eyes positioned ^ ^ ^5.5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ trial_spawner[trial_spawner_state=inactive] run function custom:randomize_spawner
 
-# Detect any empty/unconfigured Trial Spawner near players and apply mob data + rewards
-execute as @a at @s positioned ~-5 ~-3 ~-5 run execute as @e[type=marker] run return 1
-
-# Apply data to any unassigned Trial Spawner within 6 blocks of a player
-execute as @a at @s run execute positioned ~-4 ~-4 ~-4 run fill ~ ~ ~ ~8 ~8 ~8 trial_spawner[spawner_state=inactive] replace trial_spawner
-
-# Trigger data application for nearby inactive spawners
-execute as @a at @s run execute align xyz run call custom:apply_spawner_data
+# Advancement direkt wieder entziehen, damit es beliebig oft klappt
+advancement revoke @s only custom:place_trial_spawner
