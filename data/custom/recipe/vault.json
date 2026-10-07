@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "IDI",
+    "TCT"
+  ],
+  "key": {
+    "I": "minecraft:iron_bars",
+    "D": "minecraft:diamond",
+    "C": "minecraft:copper_ingot",
+    "T": "minecraft:tuff"
+  },
+  "result": {
+    "id": "minecraft:vault",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{random_vault:1b}"
+    }
+  }
+}

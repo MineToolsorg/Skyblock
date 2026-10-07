@@ -2,17 +2,17 @@
   "__comment": "Made by Kons_U for mine.tools",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " B ",
+    "NNN",
     "NSN",
-    " B "
+    "NDN"
   ],
   "key": {
-    "B": "minecraft:blackstone",
     "N": "minecraft:netherrack",
-    "S": "minecraft:nether_star"
+    "S": "minecraft:nether_star",
+    "D": "minecraft:diamond_block"
   },
   "result": {
     "count": 1,
-    "id": "minecraft:ancient_debris"
+    "id": "minecraft:netherite_upgrade_smithing_template"
   }
 }

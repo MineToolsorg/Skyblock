@@ -1,9 +1,9 @@
 {
   "__comment": "Made by Kons_U for mine.tools",
   "type": "minecraft:blasting",
-  "ingredient": "minecraft:amethyst_block",
+  "ingredient": "minecraft:amethyst_shard",
   "result": {
-    "id": "minecraft:budding_amethyst"
+    "id": "minecraft:echo_shard"
   },
   "experience": 5.0,
   "cookingtime": 20000

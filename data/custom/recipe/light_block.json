@@ -2,19 +2,20 @@
   "__comment": "Made by Kons_U for mine.tools",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "E E",
-    "DDD"
+    "GGG",
+    "GTG",
+    "GGG"
   ],
   "key": {
-    "E": "minecraft:echo_shard",
-    "D": "minecraft:deepslate"
+    "G": "minecraft:glass_pane",
+    "T": "minecraft:torch"
   },
   "result": {
     "count": 1,
-    "id": "minecraft:sculk_shrieker",
+    "id": "minecraft:light",
     "components": {
       "minecraft:block_state": {
-        "can_summon": "true"
+        "level": "15"
       }
     }
   }

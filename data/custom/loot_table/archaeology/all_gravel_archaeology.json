@@ -1,14 +1,18 @@
 {
-  "type": "minecraft:archaeology",
+  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 1.0,
       "entries": [
         { "type": "minecraft:item", "name": "minecraft:music_disc_relic", "weight": 2 },
         { "type": "minecraft:item", "name": "minecraft:wayfinder_armor_trim_smithing_template", "weight": 3 },
         { "type": "minecraft:item", "name": "minecraft:raiser_armor_trim_smithing_template", "weight": 3 },
         { "type": "minecraft:item", "name": "minecraft:shaper_armor_trim_smithing_template", "weight": 3 },
         { "type": "minecraft:item", "name": "minecraft:host_armor_trim_smithing_template", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:ward_armor_trim_smithing_template", "weight": 1 },
+        { "type": "minecraft:item", "name": "minecraft:silence_armor_trim_smithing_template", "weight": 1 },
+        { "type": "minecraft:item", "name": "minecraft:sentry_armor_trim_smithing_template", "weight": 1 },
+        { "type": "minecraft:item", "name": "minecraft:tide_armor_trim_smithing_template", "weight": 1 },
         { "type": "minecraft:item", "name": "minecraft:emerald", "weight": 8 },
         { "type": "minecraft:item", "name": "minecraft:coal", "weight": 12 },
         { "type": "minecraft:item", "name": "minecraft:string", "weight": 12 },

@@ -1,0 +1,28 @@
+{
+  "__comment": "Made by Kons_U for mine.tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GIG",
+    "GGG"
+  ],
+  "key": {
+    "G": "minecraft:glass_pane",
+    "I": "minecraft:item_frame"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:item_frame",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "Invisible": true
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:item_name": {
+        "text": "Invisible Item Frame",
+        "italic": false
+      }
+    }
+  }
+}
