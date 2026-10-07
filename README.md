@@ -1,9 +1,8 @@
 # Vanilla Skyblock Datapack by mine.tools
 
-![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21%2B-brightgreen?style=for-the-badge&logo=minecraft)
-![Datapack Status](https://img.shields.io/badge/Status-100%25%20Obtainability-blue?style=for-the-badge)
-![Author](https://img.shields.io/badge/Author-Kons__U-orange?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Website-mine.tools-red?style=for-the-badge)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-26.2%2B-orange?style=for-the-badge&logo=minecraft)
+![Author](https://img.shields.io/badge/Author-Kons__U-red?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Website-mine.tools-brightgreen?style=for-the-badge)
 
 Welcome to the official **Vanilla Skyblock Datapack** created for **mine.tools** and programmed by **Kons_U**. 
 
@@ -11,7 +10,7 @@ This datapack transforms the standard Minecraft Skyblock experience into a fully
 
 ---
 
-## 💡 Key Features
+## Key Features
 
 * **100% Vanilla Item Obtainability:** Unlocks all previously unobtainable items, ores, blocks, and templates.
 * **Custom Crafting Recipes:** 40+ carefully crafted recipes for deepslate ores, rare natural blocks, sculk components, and structure utilities.
@@ -22,9 +21,9 @@ This datapack transforms the standard Minecraft Skyblock experience into a fully
 
 ---
 
-## 📦 What's Included?
+## What's Included?
 
-### 🛠️ 1. Custom Recipes
+### 1. Custom Recipes
 
 | Category | Added Recipes / Items |
 | :--- | :--- |
@@ -36,7 +35,7 @@ This datapack transforms the standard Minecraft Skyblock experience into a fully
 
 ---
 
-### 🎲 2. Loot Tables & Archaeology
+### 2. Loot Tables & Archaeology
 
 * **Archaeology:**
   * `all_sand_archaeology.json` — Brushable sand loot tables.
@@ -51,7 +50,7 @@ This datapack transforms the standard Minecraft Skyblock experience into a fully
 
 ---
 
-### ⚙️ 3. Dynamic Functions & Mechanisms
+### 3. Dynamic Functions & Mechanisms
 
 The datapack contains built-in functions under `data/custom/function/` that handle dynamic spawner logic and trading:
 
@@ -63,20 +62,20 @@ The datapack contains built-in functions under `data/custom/function/` that hand
 
 ---
 
-## 💬 Feedback & Community
+## Feedback & Community
 
 Got feedback, found a bug, or think a recipe needs balancing? We’d love to hear from you! 
 
 Head over to the official **mine.tools Discord server** to help us improve the datapack:
-* 🐛 **Bug Reports:** Let us know if anything isn't working as expected.
-* ⚖️ **Recipe Feedback:** If any recipe feels unbalanced, awkward, or bad, give us your suggestions!
-* 📦 **Missing Items:** Found an item that is still unobtainable and needs to be added? Let us know!
+* **Bug Reports:** Let us know if anything isn't working as expected.
+* **Recipe Feedback:** If any recipe feels unbalanced, awkward, or bad, give us your suggestions!
+* **Missing Items:** Found an item that is still unobtainable and needs to be added? Let us know!
 
-👉 **Join the Discord:** [mine.tools Discord Server](https://discord.gg/YOUR_DISCORD_LINK)
+**Join the [Discord Server](https://discord.gg/WeeKtNzzKH)**
 
 ---
 
-## 📥 Installation Guide
+## Installation Guide
 
 1. **Download the Datapack**: Download the `.zip` file (or folder) containing this datapack.
 2. **Navigate to your Save Folder**:
@@ -92,7 +91,7 @@ Head over to the official **mine.tools Discord server** to help us improve the d
 
 ---
 
-## 🏗️ Structure Overview
+## Structure Overview
 
 ```text
 datapack/
